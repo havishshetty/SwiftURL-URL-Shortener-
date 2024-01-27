@@ -43,13 +43,12 @@ header{
 
 .short_link{
     display: flex;
-    margin: 20px;
-    margin-top: 30px;
+    margin-top: 15px;
     padding: 10px;
 }
 
 .hero{
-    padding: 30px
+    padding: 15px
 }
 
 
@@ -67,10 +66,14 @@ body{
 #shortened-url{
     display: flex;
     justify-content: center;
-    font-size: 30px;
-    background-color: white;
-    margin: 10px;
-    
-    border-radius: 5px;
+    font-size: 1.5rem;
 
+
+
+}
+
+#fin_link{
+    background-color: rgb(255, 255, 255);
+    padding:20px;
+    border-radius: 10px;
 }

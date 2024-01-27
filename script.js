@@ -24,7 +24,7 @@ function shortenUrl() {
     })
     .then(response => response.json())
     .then(data => {
-      document.getElementById('shortened-url').innerHTML = `<p class="text-body-secondary">Shortened URL: <a href="${data.link}" target="_blank">${data.link}</a></p>`;
+      document.getElementById('shortened-url').innerHTML = `<p class="text-body-secondary" id="fin_link">Shortened URL: <a href="${data.link}" target="_blank">${data.link}</a></p>`;
     })
     .catch(error => {
       console.error('Error shortening URL:', error);
